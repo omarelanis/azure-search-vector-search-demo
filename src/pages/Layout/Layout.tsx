@@ -14,7 +14,7 @@ export const Layout = () => {
               alt="Azure Cognitive Search logo"
               className={styles.headerLogo}
             />
-            <h3 className={styles.headerTitle}>Vector Search Demo</h3>
+            <h3 className={styles.headerTitle}>Talan Policy Vector Search</h3>
           </Link>
           <nav>
             <ul className={styles.headerNavList}>
@@ -44,7 +44,7 @@ export const Layout = () => {
               </li>
               <li className={styles.headerNavLeftMargin}>
                 <a
-                  href="https://github.com/farzad528/azure-search-vector-search-demo"
+                  href="https://github.com/omarelanis/azure-search-vector-search-demo"
                   target={"_blank"}
                   title="Github repository link"
                   rel="noreferrer"
@@ -60,14 +60,14 @@ export const Layout = () => {
             </ul>
           </nav>
           <h4 className={styles.headerRightText}>
-            Azure AI services
+            Enterprise Policy Search
           </h4>
         </div>
       </header>
       <div className={styles.content}>
         <Outlet />  
       </div> 
-      <footer className={styles.footer}>Made with <span className={styles.heart}>❤️</span> by the Azure Cognitive Search Product Group</footer>
+      <footer className={styles.footer}>Demo using vector search with Azure cognitive services and OpenAI LLM</footer>
     </div>
   );
 };
